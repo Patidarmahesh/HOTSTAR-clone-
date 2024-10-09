@@ -1,0 +1,15 @@
+ul {
+    border: 0px solid red;
+    list-style: none;
+    display: flex;
+    gap: 74px;
+}
+
+li {
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+
+
+

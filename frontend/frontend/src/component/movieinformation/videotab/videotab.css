@@ -1,0 +1,38 @@
+.visible{
+    border: 0px solid gold;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:transparent;
+    opacity: 1;
+}
+
+.visiable2{
+    display: none;
+}
+
+.closeBtn{
+    cursor: pointer;
+}
+
+.videoPlayer2{
+    border: 0px solid purple;
+    width: 40%;
+    height: 50%;
+    text-align: end;
+    color: white;
+}
+
+.videoPlayer{
+    border: 2px solid greenyellow;
+    font-size: 18px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}

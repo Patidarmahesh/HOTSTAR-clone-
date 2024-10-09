@@ -1,0 +1,139 @@
+.latest_movies {
+    border: 0px solid gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 94.5%;
+    margin-left: 5rem;
+    padding: 20px;
+    /* background: #141b29; */
+    background: #0f1014;
+    border-bottom: 2px solid gray;
+}
+
+.bothComponent {
+    border: 0px solid gold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 98%;
+    margin-left: 1rem;
+    padding: 20px;
+    /* background: #141b29; */
+    background: #0f1014;
+    border-bottom: 2px solid gray;
+
+}
+
+.headingSection {
+    border: 0px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+
+}
+
+.buttonSection {
+    border: 0px solid green;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 16px;
+
+}
+
+#hedaing12 {
+    color: white;
+    border: 1px solid gold;
+    text-align: start;
+    font-size: 28px;
+    margin-left: 0px;
+}
+
+.slider_container {
+    border: 0px solid gold;
+    width: 100%;
+    margin-left: 0px;
+}
+
+
+@media only screen and (max-width: 1020px) {
+    .headingSection {
+        border: 0px solid rgb(55, 0, 255);
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 8px;
+    
+    }
+    
+    .buttonSection {
+        border: 0px solid rgb(10, 128, 10);
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 8px;
+        justify-content: space-between;
+    
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    .headingSection {
+        border: 0px solid rgb(55, 0, 255);
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 8px;
+    
+    }
+    
+    .buttonSection {
+        border: 0px solid rgb(10, 128, 10);
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 8px;
+        justify-content: space-between;
+    
+    }
+    
+
+    
+}
+
+
+@media only screen and (max-width: 480px) {
+    .headingSection {
+        border: 0px solid rgb(55, 0, 255);
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 20px;
+        justify-content: center;
+        margin-bottom: 8px;
+    
+    }
+    
+    .buttonSection {
+        border: 0px solid rgb(10, 128, 10);
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 8px;
+        justify-content: space-between;
+    
+    }
+    
+
+}
